@@ -22,9 +22,9 @@ For the purposes of this analysis, a <b>long-shot bet</b> was defined as bets wi
 
 <p><b>2. SURFACE</b> - long-shots were more likely to win on Carpet surfaces:</p>
 
-![](images/surface.jpb)
+![](images/surface.jpg)
 
-<p><b>3. ROUND</b> - a slightly greater chance of long-shots in earlier rounds:</p>
+<p><b>3. ROUND</b> - there was a slightly greater chance of long-shots in earlier rounds:</p>
 
 ![](images/round.jpg)
 
@@ -46,7 +46,7 @@ For the purposes of this analysis, a <b>long-shot bet</b> was defined as bets wi
 <li>Rank Difference: Difference in rank of players</li>
 </ul>
 
-<p>Classification models were applied on the data, with the best accuracy achieved by a Random Forest model. However, the accuracy of false negatives was too low to consider the model useful for real-life betting, at least based on this limited model (more feature engineering such as accounting for form/winning streak or whether the tournament was played in a player's home country etc might improve the accuracy):</p>
+<p>Classification models were applied on the data, with the best accuracy achieved by a Random Forest model. However, the accuracy of false negatives was too low to consider the model useful for real-life betting, at least based on this limited model (more feature engineering such as accounting for form/winning streaks or whether the tournament was played in a player's home country etc might improve the accuracy):</p>
 
 ![](images/error_report.jpg)
 
